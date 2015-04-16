@@ -18,4 +18,4 @@ gulp.task('lint', function () {
     .pipe(jshint.reporter('default'));
 })
 
-gulp.task('default', ['lint', 'test', 'watch']);
+gulp.task('default', ['test', 'watch']);

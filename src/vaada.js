@@ -5,6 +5,10 @@
 function Vaada() {
 }
 
+Vaada.prototype.then = function () {
+
+};
+
 ////////////
 // Case 1 //
 ////////////

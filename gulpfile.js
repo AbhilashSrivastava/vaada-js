@@ -13,9 +13,9 @@ gulp.task('watch', function () {
 })
 
 gulp.task('lint', function () {
-  return gulp.src(['src/*.js', 'test/*.js'])
-    .pipe(jshint())
-    .pipe(jshint.reporter('default'));
+  // return gulp.src(['src/*.js', 'test/*.js'])
+    // .pipe(jshint())
+    // .pipe(jshint.reporter('default'));
 })
 
 gulp.task('default', ['lint', 'test', 'watch']);
